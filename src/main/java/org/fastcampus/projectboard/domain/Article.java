@@ -32,7 +32,7 @@ public class Article {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Setter @Column(nullable = false, length = 1000) private String title; // 제목
+    @Setter @Column(nullable = false, length = 768) private String title; // 제목
 
     @Setter @Column(nullable = false, length = 10000) private String content; // 본문
 
